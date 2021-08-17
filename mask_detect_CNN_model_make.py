@@ -77,14 +77,3 @@ model.fit(test_features, to_categorical(test_labels),
 
 '''save model'''
 model.save('cnn_full_model_facemask')
-
-# model.add(Conv2D(256, (3, 3), input_shape=test_features.shape[0]))
-# model.add(Activation('relu'))
-# model.add(MaxPooling2D(pool_size=(2,2)))
-#
-# model.add(Conv2D(256, (3,3)))
-# model.add(Activation('relu'))
-# model.add(MaxPooling2D(pool_size=(2,2)))
-
-# model.add(Flatten())
-# model.add(Dense)
